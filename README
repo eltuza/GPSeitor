@@ -1,0 +1,1 @@
+A Python application that processes a pictures directory and generates a static web page positioning the images that have GPS Exif data in a Google Map
