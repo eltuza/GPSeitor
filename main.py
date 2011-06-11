@@ -16,14 +16,10 @@ class Main:
 
         self.target_dir = opts.target_dir
 
-        #print opts
-
         if opts.target_dir is None:
             print "Error: You should specify the images directory\n"
             self.parser.print_help()
             exit(-1)
-
-        #filelist = self.get_files()
 
         files = os.listdir(self.target_dir)
         
@@ -33,8 +29,8 @@ class Main:
                 img = GPSImage(self.target_dir,f)
                 self.images.append(img)
                 #img.print_gps_data()
-                img.print_coords()
-                #img.print_gps_data()
+                #img.print_coords()
+                #img.print_xmp_data()
             except IOError:
                 pass
          
@@ -51,9 +47,12 @@ class Main:
         d = {}
         content = "var data = "
         for img in self.images:
-            d[img.path] = {
+            print img.thumb
+            d[img.id] = {
                 'lng': img.lng, 
-                'lat': img.lat
+                'lat': img.lat,
+                'thumb': img.thumb,
+                'path' : img.path
                 }
         
         content += json.dumps(d, sort_keys=True, indent=4)

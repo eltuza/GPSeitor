@@ -1,0 +1,80 @@
+var data = {
+    "1fd274cd-4faa-44c9-8d68-a80bab60a43f": {
+        "lat": -22.745361111111112, 
+        "lng": -41.875572222222225, 
+        "path": "testdir/P1020001.JPG", 
+        "thumb": "testdir/.thumbs/P1020001_thumb.jpg"
+    }, 
+    "21bc3df1-ebb6-486e-ad59-155d51cbb91e": {
+        "lat": -22.980519444444443, 
+        "lng": -43.18957777777777, 
+        "path": "testdir/2.jpg", 
+        "thumb": "testdir/.thumbs/2_thumb.jpg"
+    }, 
+    "4ef279f8-6dc1-4729-9403-4501819f3e78": {
+        "lat": -22.74563888888889, 
+        "lng": -41.875591666666665, 
+        "path": "testdir/P1020005.JPG", 
+        "thumb": "testdir/.thumbs/P1020005_thumb.jpg"
+    }, 
+    "5161a429-b48d-4623-b995-c0131059d9d9": {
+        "lat": -22.74775277777778, 
+        "lng": -41.87708333333333, 
+        "path": "testdir/P1020008.JPG", 
+        "thumb": "testdir/.thumbs/P1020008_thumb.jpg"
+    }, 
+    "81f13759-4e60-42db-8403-a87f3419f3ae": {
+        "lat": -22.863694444444445, 
+        "lng": -43.2348, 
+        "path": "testdir/1.jpg", 
+        "thumb": "testdir/.thumbs/1_thumb.jpg"
+    }, 
+    "88893a0b-7c0e-406d-b572-231e02de8934": {
+        "lat": 28.41861111111111, 
+        "lng": -81.57783055555555, 
+        "path": "testdir/usa.jpg", 
+        "thumb": "testdir/.thumbs/usa_thumb.jpg"
+    }, 
+    "d5196715-f513-461d-8881-356bea8f57b0": {
+        "lat": -22.74775277777778, 
+        "lng": -41.87708333333333, 
+        "path": "testdir/P1020007.JPG", 
+        "thumb": "testdir/.thumbs/P1020007_thumb.jpg"
+    }, 
+    "d9a2fe19-c24d-490b-8f52-45246d958b75": {
+        "lat": -22.745361111111112, 
+        "lng": -41.875572222222225, 
+        "path": "testdir/P1020002.JPG", 
+        "thumb": "testdir/.thumbs/P1020002_thumb.jpg"
+    }, 
+    "dee094c7-f286-4a56-98d3-8dfcae2b1e7f": {
+        "lat": -22.745644444444444, 
+        "lng": -41.87561388888889, 
+        "path": "testdir/P1020006.JPG", 
+        "thumb": "testdir/.thumbs/P1020006_thumb.jpg"
+    }, 
+    "eb451b1e-3bd6-42d5-8f5a-0d7638b61189": {
+        "lat": -22.74775277777778, 
+        "lng": -41.87708333333333, 
+        "path": "testdir/P1020009.JPG", 
+        "thumb": "testdir/.thumbs/P1020009_thumb.jpg"
+    }, 
+    "f0239b4f-2bc5-47c7-bce8-4cfd7e9d26f8": {
+        "lat": -22.980519444444443, 
+        "lng": -43.18957777777777, 
+        "path": "testdir/3.jpg", 
+        "thumb": "testdir/.thumbs/3_thumb.jpg"
+    }, 
+    "f6046859-ba70-4ce3-8c2a-1866ac176018": {
+        "lat": -22.745361111111112, 
+        "lng": -41.875572222222225, 
+        "path": "testdir/P1020004.JPG", 
+        "thumb": "testdir/.thumbs/P1020004_thumb.jpg"
+    }, 
+    "fac8d449-e74e-44a6-adc0-b450a7430353": {
+        "lat": -22.745361111111112, 
+        "lng": -41.875572222222225, 
+        "path": "testdir/P1020003.JPG", 
+        "thumb": "testdir/.thumbs/P1020003_thumb.jpg"
+    }
+}
