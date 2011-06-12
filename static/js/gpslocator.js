@@ -88,12 +88,8 @@
         var img = data[id];
         
         return ' <div id="content">' +
-                    '<div id="siteNotice">'+
-                    '</div>'+
-                    '<h4 id="firstHeading" class="firstHeading">' + img.path + '</h4>'+
                     '<div id="bodyContent">'+ //add country gps information thru geolocation
                     '<img class="mapPhoto" src="./' + img.path + '"/>' + 
-                    '<br/>' +
                     '</div>'+
                     '</div>'
     }
@@ -102,9 +98,9 @@
         var obj = $("#" + id);
         target.stop().scrollTo(obj, 800, {axis: 'x'}); //TODO: add offset to center when scrolling gallery
         
-        if(highlight) {
+        /*if(highlight) {
             obj.css('border', '1px solid #cfc');
-        }
+        }*/
     };
     
     var scroll_position = function(direction, target, offset) {
