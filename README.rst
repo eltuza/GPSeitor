@@ -13,3 +13,8 @@ Status
 Usage
 -----
     ./main.py -d image_dir
+
+Example
+-------
+.. image:: gpseitor.png
+   :alt: Gallery with images located in a map 
