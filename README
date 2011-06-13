@@ -1,8 +1,0 @@
-A Python application that processes a pictures directory and generates a static web page positioning the images that have GPS Exif data in a Google Map
-
-Status:
-    Currently it's in a script-like stage. very basic and rudimental. 
-    Several features coming soon.
-
-Usage:
-    ./main.py -d image_dir
