@@ -16,5 +16,5 @@ Usage
 
 Example
 -------
-.. image:: gpseitor.png
+.. image:: http://bit.ly/mvt3ve 
    :alt: Gallery with images located in a map 
