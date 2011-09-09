@@ -74,14 +74,20 @@ class GPSImage:
         return dir_path    
         
     def print_gps_data(self):
-        print self.metadata['Exif.GPSInfo.GPSMeasureMode'].raw_value
-        print self.metadata['Exif.GPSInfo.GPSVersionID'].raw_value
-        print self.metadata['Exif.GPSInfo.GPSLatitudeRef'].value
-        print self.metadata['Exif.GPSInfo.GPSLatitude'].value
-        print self.metadata['Exif.GPSInfo.GPSLongitudeRef'].value
-        print self.metadata['Exif.GPSInfo.GPSLongitude'].value
-        print self.metadata['Exif.GPSInfo.GPSTimeStamp'].raw_value
-        print self.metadata['Exif.GPSInfo.GPSSatellites'].raw_value
+        
+        keys = [
+            'Exif.GPSInfo.GPSMeasureMode',
+            'Exif.GPSInfo.GPSVersionID',
+            'Exif.GPSInfo.GPSLatitudeRef',
+            'Exif.GPSInfo.GPSLatitude',
+            'Exif.GPSInfo.GPSLongitudeRef',
+            'Exif.GPSInfo.GPSLongitude',
+            'Exif.GPSInfo.GPSTimeStamp',
+            'Exif.GPSInfo.GPSSatellites'
+        ]
+
+        for key in keys:
+            print self.metadata[key].raw_value
         
     def print_coords(self):
         print 'Longitude: ' + str(self.lng) 
